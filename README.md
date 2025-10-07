@@ -1,2 +1,2 @@
 # etsdam_atteneri
-Repositorio para entornos de desarrolllo
+Repositorio para entornos de desarrollo
