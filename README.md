@@ -1,2 +1,2 @@
 # etsdam_atteneri
-Repositorio para las tareas 
+Repositorio para entornos de desarrolllo
