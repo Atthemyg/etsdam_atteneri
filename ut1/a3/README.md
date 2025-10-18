@@ -32,14 +32,14 @@ En esta practica no se ha utilizado ningún hardware o software en específico n
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-Primero creamos el README
+Primero creamos el `README.md`
 
 
 `touch README.md`
 
 ![README](./img/README.png)
 
-Hacemos un commit con el mensaje "commit inicial"
+Hacemos un `commit` con el mensaje "commit inicial"
 
 `git add .`
 
@@ -78,7 +78,8 @@ A continuación creamos en el repositorio local un fichero (privado.txt) y una c
 
 `git commit -m "añadido fichero .gitignore"`
 
-Si empleamos estos comandos correctamente ni el fichero ni la carpeta no deberían de subir al repositorio ya que el fichero `.gitignore` le indica a Git que archivos o carpetas debe de ignorar y no incluir en futuros commits.
+
+Si empleamos estos comandos correctamente ni el fichero ni la carpeta nos deberían de subir al repositorio ya que el fichero `.gitignore` le indica a Git que archivos o carpetas debe de ignorar y no incluir en futuros commits.
 
 
 ![GITIGNORE](./img/gitignore.png)
@@ -97,7 +98,8 @@ Ahora añadiremos un fichero (1.txt) al repositorio local
 
 `git commit -m "añadido 1.txt"`
 
-El comando `git add .` prepara los archivos para ser incluidos en el proximo commit
+
+El comando `git add .` prepara los archivos para ser incluidos en el proximo `commit`
 
 El comando `git commit` registra de forma permanente los cambios preparados en el historial del repositorio local
 
@@ -106,7 +108,7 @@ El comando `git commit` registra de forma permanente los cambios preparados en e
 ![1txt](./img/1txt2.png)
 
 
-Crearemos un tag (tag v0.1)
+Crearemos un `tag` (tag v0.1)
 
 
 `git tag v0.1`
@@ -118,14 +120,14 @@ Y subiremos los cambios al repositorio remoto
 `git push --tag origin master`
 
 
-El tag es una especie de etiqueta que en Git se emplea para identificar un punto concreto en la historia del repositorio para señalar, entre otras cosas, versiones importantes.
+El `tag` es una especie de etiqueta que en Git se emplea para identificar un punto concreto en la historia del repositorio para señalar, entre otras cosas, versiones importantes.
 
 
 ![TAG](./img/tag1.png)
 ![TAG](./img/tag1.2.png)
 
 
-Podemos crear una rama (v0.2)
+Podemos crear una `rama` (v0.2)
 
 
 `git branch v0.2`
@@ -163,13 +165,13 @@ Y subimos los cambios al repositorio remoto
 ![BRANCH](./img/branch2.png)
 
 
-Ahora nos posicionaremos en una rama main/master (dependiendo de cual sea tu rama principal)
+Ahora nos posicionaremos en una `rama main/master` (dependiendo de cual sea tu rama principal)
 
 
 `git checkout main`
 
 
-Y hacemos un merge de la rama v0.2 en la rama main
+Y hacemos un `merge` de la rama v0.2 en la rama main
 
 
 `git merge v0.2 -m "merge v0.2 sin conflictos"`
@@ -180,7 +182,7 @@ Aquí no se tendrían que provocar conflictos ya que ninguna de las dos ramas ha
 ![MERGE](./img/merge.png)
 
 
-Sin embargo, si en la rama main ponemos un "Hola" en el fichero 1.txt y hacemos un commit
+Sin embargo, si en la `rama main` ponemos un "Hola" en el fichero 1.txt y hacemos un `commit`
 
 
 `git checkout main`
@@ -195,7 +197,7 @@ Sin embargo, si en la rama main ponemos un "Hola" en el fichero 1.txt y hacemos 
 `git commit -m "hola en 1.txt"`
 
 
-Y nos posicionamos en en la rama v0.2 y ponemos "Adiós" en el fichero 1.txt y hacemos un commit
+Y nos posicionamos en en la `rama v0.2` y ponemos "Adiós" en el fichero 1.txt y hacemos un `commit`
 
 
 `git checkout v0.2`
@@ -215,7 +217,7 @@ Nos da un error
 ![MERGE](./img/merge2.png)
 
 
-Nos posicionamos de nuevo en la rama main y hacemos un merge con la rama v0.2
+Nos posicionamos de nuevo en la `rama main` y hacemos un `merge` con la `rama v0.2`
 
 
 `git checkout master`
@@ -237,7 +239,7 @@ Nos posicionamos de nuevo en la rama main y hacemos un merge con la rama v0.2
 ![MERGE](./img/merge4.png)
 
 
-Listaremos las ramas con merge y sin merge
+Listaremos las ramas `con merge` y `sin merge`
 
 
 `git branch --merged`
@@ -245,10 +247,10 @@ Listaremos las ramas con merge y sin merge
 
 `git branch --no-merged`
 
-![MERGE](.img/merge5.png)
+![MERGE](./img/merge5.png)
 
 
-Y arreglamos el conflicto antes de hacer un commit
+Y arreglamos el conflicto antes de hacer un `commit`
 
 
 `nano 1.txt`
@@ -259,10 +261,10 @@ Y arreglamos el conflicto antes de hacer un commit
 
 `git commit -m "arreglado merge en 1.txt"`
 
-![MERGE](.img/merge6.png)
+![MERGE](./img/merge6.png)
 
 
-Podemos borrar la rama. Creamos un tag (v0.2)
+Podemos borrar la rama. Creamos un `tag` (v0.2)
 
 
 `git tag v0.2`
@@ -283,7 +285,7 @@ Por último listamos los distintos commits con sus ramas y sus tags
 `git list`
 
 
-![BRANCHFINAL](.img/branchf.png)
+![BRANCHFINAL](./img/branchf.png)
 
 
 
