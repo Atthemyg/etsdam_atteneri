@@ -26,11 +26,11 @@ En esta práctica utilizamos varios comandos para crear un repositorio nuevo y e
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Con esta práctica se busca practicar los diferentes comandos de git.
+Con esta práctica se busca practicar los diferentes comandos de git y aprender para que sirve cada uno
 
 #### ***Material empleado***. <a name="id3"></a>
 
-En esta practica no se ha utilizado ningún hardware o software en específico ni tampoco ninguna configuración de red. 
+En esta practica no se ha utilizado ningún hardware o software en específico ni tampoco ninguna configuración de red 
 
 #### ***Desarrollo***. <a name="id4"></a>
 
@@ -61,7 +61,7 @@ Sin embargo, podemos omitir el "origin master" y simplemente usar `git push`
 ![README](./img/README3.png)
 
 
-A continuación creamos en el repositorio local un fichero (privado.txt) y una carpeta (privada) que serán ignorados por git
+A continuación creamos en el repositorio local un fichero (privado.txt) y una carpeta (privada) que serán ignorados por Git
 
 `touch privado.txt`
 
@@ -81,7 +81,7 @@ A continuación creamos en el repositorio local un fichero (privado.txt) y una c
 `git commit -m "añadido fichero .gitignore"`
 
 
-Si empleamos estos comandos correctamente ni el fichero ni la carpeta nos deberían de subir al repositorio ya que el fichero `.gitignore` le indica a Git que archivos o carpetas debe de ignorar y no incluir en futuros commits.
+Si empleamos estos comandos correctamente ni el fichero ni la carpeta deberían de subirse al repositorio ya que el fichero `.gitignore` le indica a Git que archivos o carpetas debe de ignorar y no incluir en futuros commits.
 
 
 ![GITIGNORE](./img/gitignore.png)
@@ -119,10 +119,10 @@ Crearemos un `tag` (tag v0.1)
 Y subiremos los cambios al repositorio remoto
 
 
-`git push --tag origin master`
+`git push --tag origin main`
 
 
-El `tag` es una especie de etiqueta que en Git se emplea para identificar un punto concreto en la historia del repositorio para señalar, entre otras cosas, versiones importantes.
+El `tag` es una especie de etiqueta que en Git se emplea para identificar un punto concreto en la historia del repositorio para señalar, entre otras cosas, versiones importantes
 
 
 ![TAG](./img/tag1.png)
@@ -158,7 +158,7 @@ Añadimos un fichero (2.txt) en esta rama
 Las ramas en Git permiten trabajar en paralelo sin afectar la versión principal del proyecto y así desarrollar nuevas funcionalidades, corregir errores o probar cambios de forma aislada y controlada
 
 
-Y subimos los cambios al repositorio remoto
+Subimos los cambios al repositorio remoto
 
 
 `git push origin v0.2`
@@ -184,7 +184,7 @@ Aquí no se tendrían que provocar conflictos ya que ninguna de las dos ramas ha
 ![MERGE](./img/merge.png)
 
 
-Sin embargo, si en la `rama main` ponemos un "Hola" en el fichero 1.txt y hacemos un `commit`
+Sin embargo, si en la `rama main` ponemos un "Hola" en el fichero `1.txt` y hacemos un `commit`
 
 
 `git checkout main`
@@ -199,7 +199,7 @@ Sin embargo, si en la `rama main` ponemos un "Hola" en el fichero 1.txt y hacemo
 `git commit -m "hola en 1.txt"`
 
 
-Y nos posicionamos en en la `rama v0.2` y ponemos "Adiós" en el fichero 1.txt y hacemos un `commit`
+Y nos posicionamos en en la `rama v0.2` y ponemos "Adiós" en el fichero `1.txt` y hacemos un `commit`
 
 
 `git checkout v0.2`
