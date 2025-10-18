@@ -30,7 +30,7 @@ Con esta práctica se busca practicar los diferentes comandos de git y aprender 
 
 #### ***Material empleado***. <a name="id3"></a>
 
-En esta practica no se ha utilizado ningún hardware o software en específico ni tampoco ninguna configuración de red 
+Una máquina virtual y un repositorio en GitHub con sus respectivas claves
 
 #### ***Desarrollo***. <a name="id4"></a>
 
