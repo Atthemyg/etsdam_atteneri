@@ -6,8 +6,10 @@
 
 </center>
 
-***Nombre: Atteneri***
-***Curso: 1ºDAM*** 
+***Nombre:*** Atteneri Bravo Barroso
+
+
+***Curso:*** 1ºDAM
 
 ### ÍNDICE
 
