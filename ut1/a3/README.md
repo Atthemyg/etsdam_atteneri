@@ -35,9 +35,27 @@ En esta practica no se ha utilizado ningún hardware o software en específico n
 Primero creamos el README
 
 
+`touch README.md`
+
 ![README](./img/README.png)
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+Y creamos el commit inicial
+
+`git add .`
+`git commit -m "commit inicial"`
+
+
+![README](./img/README2.png)
+
+![README](./img/README3.png)
+
+
+Creamos dos archivo y una carpeta con gitignore
+
+
+![GITIGNORE](./img/gitignore.png)
+
+
 
 Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
 
