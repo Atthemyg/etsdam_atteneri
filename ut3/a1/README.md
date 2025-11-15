@@ -11,7 +11,9 @@
 </center>
 
 
-***Nombre:Atteneri, Jaime, Borja, Peter y Adrián***
+***Nombre: Atteneri, Jaime, Borja, Peter y Adrián***
+
+
 ***Curso:1ªDAM***
 
 
@@ -359,7 +361,7 @@ Como podemos observar en la imagen, al seleccionar una de las versiones nos dest
 Para acceder a la configuración de Eclipse debemos ir a la pestaña Ventanas => preferencias.
 
 
-![CONFIGURACIÓN](./img/configuracion.png)
+![CONFIGURACIÓN](./img/configuracion.PNG)
 
 
 El panel de opciones está dividido en dos partes: un panel de navegación a la izquierda y un
@@ -387,7 +389,7 @@ del programa, así que un desarrollador puede refactorizarlo primero para facili
 luego añadir el nuevo comportamiento.
 
 
-![REFACTORIZACIÓN](./img/refactorizar.png)
+![REFACTORIZACIÓN](./img/refactorizar.PNG)
 
 
 En esta pestaña disponemos de opciones como cambiar el nombre del paquete principal,
