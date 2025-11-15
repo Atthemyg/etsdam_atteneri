@@ -131,47 +131,47 @@ A continuacion se nos abrira un asistente diferente empaquetado que incorporar
 funcionalidades según el lenguae a desarrollar, nosotros hemos elegido la primera opcion.
 
 
-![INSTALACION](./img/1. Instalacion.png)
+![INSTALACION](./img/1instalacion.png)
 
 
 Luego elegiremos la carpeta de ubicación de nuestro IDE, y marcaremos la opcion de
 que nos cree el acceso directo en el escritorio.
 
 
-![INSTALACION](./img/1.1 Instalacion.png)
+![INSTALACION](./img/11instalacion.png)
 
 
 Posteriormente aceptaremos los términos de uso si estamos de acuerdo.
 
 
-![INSTALACION](./img/1.2 instalacion.png)
+![INSTALACION](./img/12instalacion.png)
 
 
 Y comenzaremos con la instalación de nuestro entorno.
 
 
-![INSTALACION](./img/1.3 instalacion.png)
+![INSTALACION](./img/13instalacion.png)
 
 
 Una vez instalados lo inicializamos.
 
 
-![INSTALACION](./img/1.4 instalacion.png)
+![INSTALACION](./img/14instalacion.png)
 
 
 Antes de abrirse nos pedira que le indiquemos donde guardar los proyectos que realicemos.
 
 
-![INSTALACION](./img/1.5 instalacion.png)
+![INSTALACION](./img/15instalacion.png)
 
 
-![INSTALACION](./img/1.6 instalacion.png)
+![INSTALACION](./img/16instalacion.png)
 
 
 Ya tenemos nuestro entorno de desarrollo.
 
 
-![INSTALACION](./img/1.7 instalacion.png)
+![INSTALACION](./img/17instalacion.png)
 
 
 **2. Crear proyecto**
@@ -181,20 +181,20 @@ Ahora vamos a crear un nuevo proyecto para ver algunas de sus herramientas.
 Para iniciar un nuevo proyecto iremos a la pestaña File => New => Java Project.
 
 
-![CREAR](./img/2. crear.png)
+![CREAR](./img/2crear.png)
 
 
 Se nos abrirá la siguiente ventana en la que debemos indicar el nombre del proyecto y
 modificar la ubicación de este si lo deseamos.
 
 
-![CREAR](./img/2.1 crear.png)
+![CREAR](./img/21crear.png)
 
 
 Una vez creado el proyecto, nos aparecerá la pantalla principal del proyecto.
 
 
-![CREAR](./img/2.2 crear.png)
+![CREAR](./img/22crear.png)
 
 
 Para poder comenzar a escribir nuestro programa lo primero que debemos hacer es crear la
@@ -203,7 +203,7 @@ y se nos abrirá una ventana donde debemos indicar el nombre de la clase y marca
 la casilla que creará el método.
 
 
-![CREAR](./img/2.3 crear.png)
+![CREAR](./img/23crear.png)
 
 
 
@@ -217,19 +217,19 @@ Ya tenemos aquí nuestro editor de texto con la clase main ya construida.
 A continuación, debemos escribir nuestro programa. Podemos distinguir que nos muestra de forma resaltada las palabras reservadas del lenguaje.
 
 
-![TEXTO](./img/2.4 crear.png)
+![TEXTO](./img/24crear.png)
 
 
 El editor de texto nos ayuda según vamos escribiendo, e irá marcando con un subrayado rojo los posibles errores de sintaxis y posibles errores léxicos.
 
 
-![TEXTO](./img/2.5 crear.png)
+![TEXTO](./img/25crear.png)
 
 
 El error descrito anteriormente es difícil de cometer puesto que como podemos ver en la imagen inferior, el propio editor nos muestra las posibles opciones disponibles según vamos escribiendo.
 
 
-![TEXTO](./img/2.6 crear.png)
+![TEXTO](./img/26crear.png)
 
 
 
@@ -242,7 +242,7 @@ código fuente en un código binario o código máquina y para ello, tenemos var
 hacerlo, a través del botón "verde de reproducir" o desde la pestaña ejecutar o con Ctrl+F11.
 
 
-![COMPILAR](./img/3. compilar.png)
+![COMPILAR](./img/3compilar.png)
 
 
 En el caso de eclipse solo hay una forma de compilar y es que cuando hacemos clic en ejecutar
@@ -268,7 +268,7 @@ Hay varias formas de iniciar la ejecución del programa en modo depuración:
 Podemos hacerlo mediante la pestaña Ejecutar => Depurar, o con un atajo de teclado (F11) o pulsando sobre el botón de "escarabajo"
 
 
-![DEPURAR](./img/3.1 depurar.puntosruptura.png)
+![DEPURAR](./img/31depurarpuntosruptura.png)
 
 
 Para el uso del depurador manejamos distintas opciones a través de botones:
@@ -296,7 +296,7 @@ Para fijar un punto de ruptura simplemente pulsamos sobre la parte izquierda del
 línea donde se desea colocar.
 
 
-![PUNTOS](./img/3.2 puntosruptura.png)
+![PUNTOS](./img/32puntosruptura.png)
 
 
 
@@ -307,28 +307,28 @@ línea donde se desea colocar.
 Eclipse nos ofrece una serie de plugins con los que podremos trabajar. Para descargar e instalar cualquier plugin en el entorno de eclipse tenemos que ir a Ayuda => eclipseMarketplace. Podríamos decir que es como una tienda de plugins, tan solo debemos buscar el plugin que queramos y hacer clic en instalar.
 
 
-![PLUGINS](./img/4. market.png)
+![PLUGINS](./img/4market.png)
 
 
-![PLUGINS](./img/4.1 market.png)
+![PLUGINS](./img/41market.png)
 
 
 Cuando hagamos clic en aceptar nos aparecerá una nueva ventana en la cual tenemos que aceptar los términos de licencia.
 
 
-![PLUGINS](./img/4.2 market.png)
+![PLUGINS](./img/42market.png)
 
 
 Y comenzará la instalación de nuestro plugin.
 
 
-![PLUGINS](./img/4.3 market.png)
+![PLUGINS](./img/43market.png)
 
 
 Por último, solo nos queda reiniciar el IDE para aplicar los cambios.
 
 
-![PLUGINS](./img/4.4 market.png)
+![PLUGINS](./img/4market.png)
 
 
 
